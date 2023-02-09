@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-/* button style for all buttons */
+/* button style to multiple use */
 .btn-primary{
     color: white;
     background-color:#F15B22;
@@ -18,7 +18,6 @@
     align-items: center;
     width: 100%;
     height: 809px;
-    /* margin-bottom: 130px; */
     background-image: url(images/banner/banner1.png);
 }
 .header-content{
@@ -132,10 +131,26 @@ footer{
 .footer-details{
     color: white;
 }
-#btn-footer{
+.small-btn{
     background-color: white;
     color: black;
     border-radius: 8px;
     padding: 10px 30px;
     font-weight: bold;
+}
+.organization-details-section{
+    padding: 50px;
+    background-image: linear-gradient(to right,aqua,yellow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px 100px 0px;
+}
+.organization-details-section a{
+    text-decoration: none;
+}
+#children-img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
 }
