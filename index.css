@@ -101,3 +101,41 @@
     font-weight: 700px;
     color: rgb(16, 15, 15);
 }
+footer{
+    background-color: black;
+
+}
+.footer-icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+#input-field{
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 8px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-details{
+    color: white;
+}
+#btn-footer{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
